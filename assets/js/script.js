@@ -65,10 +65,35 @@ $(function () {
             //     $('body').removeClass('dark');
             // }
 
-        },
+        }
+        // afterRender:function() {
+        //     var pagination = "<ul class=\"pagination\">";
+        //     var activeClass = "";
+        //     $(".panel").each(function(i) {
+        //         activeClass = "";
+        //         if(i===0) {
+        //         activeClass = "active";
+        //         }
+        //         pagination += "<li><a class=\"" + activeClass + "\" href=\"#" + $(this).attr("data-section-name") + "\"><span class=\"hover-text\">" + $(this).attr("data-section-name").charAt(0).toUpperCase() + $(this).attr("data-section-name").slice(1) + "</span></a></li>";
+        //     });
+
+        //     pagination += "</ul>";
+
+        //     $(".home-intro-main").append(pagination);
+        //     /*
+
+        //     Tip: The two click events below are the same:
+
+        //     $(".pagination a").on("click",function() {
+        //         $.scrollify.move($(this).attr("href"));
+        //     });
+
+        //     */
+        //     $(".pagination a").on("click",$.scrollify.move);
+        //     }
+        });
 
     });
-});
 
 // DISABLE-SCROLIFY-MOBILE
 

@@ -1853,3 +1853,33 @@ ul.other-shots li img {
 	  background-size: 80px 120px;
 	}
 }
+
+
+/************ START Custom Styles ****************/
+.colors-img{
+  margin: 5vh auto;
+  display: block;
+}
+.project-cover .w-60{
+  /* width: 60%; */
+}
+.anchor-link{
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-top: 2vh;
+  display: inline-block;
+}
+.full-img{
+  position: relative;
+}
+.full-img:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/************ END Custom Styles ****************/
