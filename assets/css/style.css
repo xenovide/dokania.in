@@ -429,7 +429,7 @@ section {
 }
 
 .mac .home-intro p, .mac .project-desc p {
-    font-family: 'Stolzl Book';
+    font-family: 'Lato', sans-serif';
 }
 
 .scroll-down {
@@ -1123,7 +1123,7 @@ a.mailto-link {
 }
 
 .mac .about-me h2, .mac .about-me p {
-    font-family: 'Stolzl Light';
+    font-family: 'lato';
 }
 
 .about-me ul.share-icons {
@@ -1420,7 +1420,7 @@ ul.other-shots li img {
     }
 
     .home-intro p, .section-desc p, .about-me .about-desc p, .project-desc p {
-        font-size: 20px;
+        font-size: 18px;
         line-height: 32px;
     }
 
@@ -1779,7 +1779,7 @@ ul.other-shots li img {
   font-size: 13px;
     margin-top: 3vh;
 
-    font-weight: 600;
+    font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 1.5px;
  text-decoration: underline;
