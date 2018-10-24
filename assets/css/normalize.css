@@ -1,0 +1,24 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ul, li{margin:0px;padding:0px;}
+h1, h2, h3, h4, h5, h6{font-weight:normal;}
+ul, li{list-style:none;}
+body{font-family:'lato';font-size:12px;}
+.mac body{font-family:'Stolzl Book';}
+a{text-decoration:none;color:#fff;outline:none;    opacity: 0.8;}
+a:focus{outline:none;}
+h1{font-size:50px;font-family:'Stolzl';letter-spacing:-2.2px;}
+h2{font-size:40px;letter-spacing:-2.2px;}
+h3{font-size:30px;font-family:"Stolzl";}
+.mac h3{font-family:"Stolzl";}
+h5{text-transform:uppercase;font-size:13px;letter-spacing:1.5px;}
+h6, .project-title ul li{font-family:'Gordita Medium';font-size:11px;text-transform:uppercase;letter-spacing:1.5px;}
+.btn, a.mailto-link{background:#cfcfcf none repeat scroll 0 0;color:#111;cursor:pointer;display:inline-block;font-family:'Gordita Medium' !important;;height:48px;letter-spacing:1.2px;line-height:50px;margin-top:1px;padding:0px 10px 0 11px;position:relative;text-align:center;text-transform:uppercase;width:160px;}
+.safari .btn, .safari a.mailto-link{font-family:'Gordita Medium' !important;font-size:11.5px;}
+.safari .btn-transform a.btn::after{line-height:62px;}
+.msg-btn{width:180px;}
+.btn-transform a.btn{position:relative;transition:all 0.52s ease 0s}
+.btn-transform a.btn span{transform:translate(0,0);transition:all 0.52s ease 0s;position:absolute;top:0;left:0;width:100%;font-weight: 600;}
+.btn-transform a.btn::after{content:"";height:100%;background:url(../images/icon-plus.svg) no-repeat center center;background-size:17px;line-height:58px;position:absolute;right:0;top:0;transform:translate(-100%,0);transition:all 0.52s ease 0s;width:100%;}
+.btn-transform a.btn:hover span{transform:translate(100%,0);transition:all 0.52s ease 0s;}
+.btn-transform a.btn:hover::after{transform:translate(0px,0px);transition:all 0.52s ease 0s;}
+@media (max-width:767px){.btn-transform a.btn:hover span{transform:translate(0,0);transition:all 0.52s ease 0s;}
+}
