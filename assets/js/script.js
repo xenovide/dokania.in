@@ -166,7 +166,7 @@ $(document).ready(function () {
 		
 		$(".btn-intro").click(function () {
         $(".home-intro-main").removeClass("selected");
-        $(".project-irequest").addClass("selected");
+        $(".project-GPSmusic").addClass("selected");
     });
 });
 
