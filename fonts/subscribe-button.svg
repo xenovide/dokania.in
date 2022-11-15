@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="51px" viewBox="0 0 51 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>subscribe-button</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-143" transform="translate(-871.000000, -8954.000000)">
+            <g id="Group-14-Copy-3" transform="translate(-2.000000, 7884.000000)">
+                <g id="Group-23" transform="translate(2.000000, 830.000000)">
+                    <g id="subscribe-button" transform="translate(871.000000, 240.000000)">
+                        <circle id="Oval-Copy" fill="#FFFFFF" cx="25.5" cy="25.5" r="25.5"></circle>
+                        <g id="arrow" transform="translate(14.000000, 18.131454)" stroke="#0D0D0D" stroke-width="2">
+                            <polyline id="Path-5" points="13.8807678 0 20.2493134 6.36854553 13.8807678 12.7370911"></polyline>
+                            <line x1="19.5" y1="6.36854553" x2="0.5" y2="6.36854553" id="Line-6" stroke-linecap="square"></line>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
